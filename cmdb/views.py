@@ -20,3 +20,8 @@ def index(request):
 
         # print(username, password)
     return render(request, 'index.html', {"data": user_list})
+
+def map(request):
+    return render(request,'map.html')
+def test(request):
+    return render(request, 'test1.html')
